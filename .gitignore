@@ -1,0 +1,5 @@
+def main() -> None:
+    Chickens= input("How many chickens do you have? ").strip() or "there"
+    print(f"You have {Chickens} Chickens!")
+from . import main
+main ()
